@@ -5,19 +5,14 @@ body {
 }
 
 .wrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
     background-color: #dcdcdd;
     padding: 20px;
     box-sizing: border-box;
-    height: 100vh;
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,8 +43,7 @@ img {
 .container-description {
     box-sizing: border-box;
     padding: 20px;
-    height: 100vh;
-    width: 70%;
+    width: 100%;
 }
 
 .container-item {
